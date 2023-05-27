@@ -5,9 +5,9 @@ import Layout from "@/components/layout"
 
 const HomePage = () => {
   return (
-    <Layout>
-      <HomeHero />
-    </Layout>
+    // <Layout>
+    <HomeHero />
+    // </Layout>
   )
 }
 

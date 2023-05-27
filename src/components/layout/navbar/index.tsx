@@ -16,7 +16,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="absolute z-10 w-full bg-transparent duration-300 ease-in">
+    <div className="z-10 w-full bg-transparent duration-300 ease-in">
       <div className="m-auto flex max-w-[1240px] items-center justify-between p-4 text-primary-white">
         <Link href="/">
           <h1 className="text-4xl font-bold">Expertio</h1>
