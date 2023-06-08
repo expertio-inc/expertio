@@ -16,6 +16,7 @@ module.exports = {
           yellow: "#fcd614",
           white: "#ffffff",
           black: "#0d0d0d",
+          jacarta: "#131740",
         },
         secondary: {
           yellow: "#fde87d",
@@ -23,6 +24,9 @@ module.exports = {
         background: {
           black: "#000000",
         },
+      },
+      fontFamily: {
+        display: ["Roboto", "sans-serif"],
       },
     },
   },

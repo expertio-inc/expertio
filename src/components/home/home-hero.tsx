@@ -5,9 +5,9 @@ const HomeHero = () => {
   const [shift, setShift] = useState(false)
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full lg:overflow-hidden">
       <section className="relative flex min-h-screen w-full flex-col overflow-hidden">
-        <div className="main-container relative z-30 flex flex-1 pt-[15vh]">
+        <div className="main-container relative flex flex-1 pt-[15vh]">
           <div className="xs:items-start relative z-20 flex w-full flex-col items-center gap-5">
             <h2 className="tp-hero1 xs:text-left flex flex-col overflow-hidden break-words pb-2.5 text-center text-8xl font-extrabold">
               <span
@@ -60,7 +60,7 @@ const HomeHero = () => {
           onEnded={() => setShift(true)}
           autoPlay
           preload="auto"
-          className="mtz-vlc-ihack h-full w-full object-cover"
+          className="mtz-vlc-ihack -z-10 h-full w-full object-cover"
         >
           Your browser does not support the video tag.
           <source src="/video/head.mp4" />
